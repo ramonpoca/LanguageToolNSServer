@@ -1,49 +1,44 @@
 //
 //  main.m
-//  LanguageToolServer
+//  LanguageToolApp
 //
 //  Created by Ramon Poca on 11/01/14.
 //  Copyright (c) 2014 Ramon Poca. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import "AFNetworking/AFNetworking.h"
 #import "LTLanguageToolConnection.h"
 #import "LTSpellChecker.h"
 
-int main(int argc, const char *argv[]) {
 
+int main(int argc, const char * argv[])
+{
     @autoreleasepool {
-
+        
         NSURL *url = [NSURL URLWithString:@"http://localhost:8081"];
         LTLanguageToolConnection *connection = [[LTLanguageToolConnection alloc] init];
         LTSpellChecker *spellChecker = [[LTSpellChecker alloc] init];
         spellChecker.connection = connection;
         connection.serverURL = url;
         NSArray *languages = [connection supportedLanguages];
-
+        
         if (languages && languages.count > 0) {
             NSSpellServer *aServer = [[NSSpellServer alloc] init];
             NSInteger registeredLanguages = 0;
             for (NSString *language in languages) {
-                NSString *appleName = [NSLocale canonicalLanguageIdentifierFromString:language];
                 if ([aServer registerLanguage:language byVendor:@"LanguageTool"]) {
                     registeredLanguages++;
                 }
                 NSLog(@"Registering %@", language);
             }
-            if ([aServer registerLanguage:@"Multilingual" byVendor:@"LanguageTool"]) {
-                registeredLanguages++;
-            }
             if (registeredLanguages > 0) {
                 [aServer setDelegate:spellChecker];
                 [aServer run];
-                fprintf(stderr, "Unexpected death of LanguageTool SpellChecker!\n");
+                NSLog(@"Unexpected death of LanguageTool SpellChecker!\n");
             } else {
-                fprintf(stderr, "Unable to check in LanguageTool SpellChecker.\n");
+                NSLog(@"Unable to check in LanguageTool SpellChecker.\n");
             }
         }
     }
     return 0;
 }
-

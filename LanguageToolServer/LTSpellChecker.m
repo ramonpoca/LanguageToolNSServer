@@ -40,7 +40,7 @@
 
             if (result.length == 0 && result.location == NSNotFound)
                 result = erange;
-            NSLog(@"Result: at %d len %d \"%@\" replacements:%d",erange.location, erange.length, message, replacementsArray.count);
+            NSLog(@"Result: at %lu len %lu \"%@\" replacements:%lu",(unsigned long)erange.location, erange.length, message, replacementsArray.count);
             errorDetails = [errorDetails arrayByAddingObject:@{NSGrammarRange : [NSValue valueWithRange:erange],
                     NSGrammarUserDescription : message,
                     NSGrammarCorrections : replacementsArray

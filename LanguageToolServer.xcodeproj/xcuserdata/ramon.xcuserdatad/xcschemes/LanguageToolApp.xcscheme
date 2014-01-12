@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F6176B361881B3BA00A09F3B"
-            BuildableName = "LanguageToolApp.app"
+            BuildableName = "LanguageTool.service"
             BlueprintName = "LanguageTool"
             ReferencedContainer = "container:LanguageToolServer.xcodeproj">
          </BuildableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F6176B361881B3BA00A09F3B"
-            BuildableName = "LanguageToolApp.app"
+            BuildableName = "LanguageTool.service"
             BlueprintName = "LanguageTool"
             ReferencedContainer = "container:LanguageToolServer.xcodeproj">
          </BuildableReference>

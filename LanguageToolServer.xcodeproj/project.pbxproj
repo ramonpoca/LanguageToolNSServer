@@ -30,12 +30,12 @@
 		F6176B3B1881B3BA00A09F3B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		F6176B3C1881B3BA00A09F3B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		F6176B3D1881B3BA00A09F3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F6176B401881B3BA00A09F3B /* LanguageToolApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LanguageToolApp-Info.plist"; sourceTree = "<group>"; };
+		F6176B401881B3BA00A09F3B /* LanguageToolServer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LanguageToolServer-Info.plist"; path = "../LanguageToolServer/LanguageToolServer-Info.plist"; sourceTree = "<group>"; };
 		F6176B421881B3BA00A09F3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F6176B441881B3BA00A09F3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F6176B461881B3BA00A09F3B /* LanguageToolApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LanguageToolApp-Prefix.pch"; sourceTree = "<group>"; };
+		F6176B441881B3BA00A09F3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../LanguageToolServer/main.m; sourceTree = "<group>"; };
 		F6176B481881B3BA00A09F3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		F6176B571881B3BA00A09F3B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F6AE07361882B69800976074 /* LanguageToolServer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LanguageToolServer-Prefix.pch"; path = "LanguageToolServer/LanguageToolServer-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		F6DFC4BB1881682800F30522 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -62,7 +62,7 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		F6176B3E1881B3BA00A09F3B /* LanguageToolApp */ = {
+		F6176B3E1881B3BA00A09F3B /* LanguageToolServer */ = {
 			isa = PBXGroup;
 			children = (
 				6743618CB82AF814C14495E2 /* LTSpellChecker.m */,
@@ -71,16 +71,17 @@
 				674365679F9C99F004218F6B /* LTLanguageToolConnection.h */,
 				F6176B3F1881B3BA00A09F3B /* Supporting Files */,
 			);
+			name = LanguageToolServer;
 			path = LanguageToolApp;
 			sourceTree = "<group>";
 		};
 		F6176B3F1881B3BA00A09F3B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F6176B401881B3BA00A09F3B /* LanguageToolApp-Info.plist */,
+				F6AE07361882B69800976074 /* LanguageToolServer-Prefix.pch */,
+				F6176B401881B3BA00A09F3B /* LanguageToolServer-Info.plist */,
 				F6176B411881B3BA00A09F3B /* InfoPlist.strings */,
 				F6176B441881B3BA00A09F3B /* main.m */,
-				F6176B461881B3BA00A09F3B /* LanguageToolApp-Prefix.pch */,
 				F6176B471881B3BA00A09F3B /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -89,7 +90,7 @@
 		F6DFC4AF1881682800F30522 = {
 			isa = PBXGroup;
 			children = (
-				F6176B3E1881B3BA00A09F3B /* LanguageToolApp */,
+				F6176B3E1881B3BA00A09F3B /* LanguageToolServer */,
 				F6DFC4BA1881682800F30522 /* Frameworks */,
 				F6DFC4B91881682800F30522 /* Products */,
 				DFE0549E98904CE0B9147833 /* Pods.xcconfig */,
@@ -241,6 +242,7 @@
 				F6176B421881B3BA00A09F3B /* en */,
 			);
 			name = InfoPlist.strings;
+			path = ../LanguageToolServer;
 			sourceTree = "<group>";
 		};
 		F6176B471881B3BA00A09F3B /* Credits.rtf */ = {
@@ -249,6 +251,7 @@
 				F6176B481881B3BA00A09F3B /* en */,
 			);
 			name = Credits.rtf;
+			path = ../LanguageToolServer;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -262,13 +265,14 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LanguageToolApp/LanguageToolApp-Prefix.pch";
+				GCC_PREFIX_HEADER = "LanguageToolServer/LanguageToolServer-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "LanguageToolApp/LanguageToolApp-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/LanguageToolServer/LanguageToolServer-Info.plist";
 				INSTALL_PATH = /Library/Services;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = service;
 			};
@@ -282,9 +286,10 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LanguageToolApp/LanguageToolApp-Prefix.pch";
-				INFOPLIST_FILE = "LanguageToolApp/LanguageToolApp-Info.plist";
+				GCC_PREFIX_HEADER = "LanguageToolServer/LanguageToolServer-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/LanguageToolServer/LanguageToolServer-Info.plist";
 				INSTALL_PATH = /Library/Services;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = service;
 			};
