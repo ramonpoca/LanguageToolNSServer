@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6845352-b941-4404-981b-0274a1c496c4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LanguageToolApp/Images.xcassets/AppIcon.appiconset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LanguageToolApp/en.lproj/Credits.rtf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LanguageToolApp/en.lproj/InfoPlist.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LanguageToolApp/LTAppDelegate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LanguageToolApp/LTAppDelegate.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LanguageToolServer/LTLanguageToolConnection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LanguageToolServer/LTLanguageToolConnection.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LanguageToolServer/LTSpellChecker.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LanguageToolServer/LTSpellChecker.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LanguageTool.entitlements" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LanguageToolApp/LanguageToolApp-Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LanguageToolApp/LanguageToolApp-Prefix.pch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LanguageToolApp/Base.lproj/MainMenu.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Podfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LanguageToolApp/main.m" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LanguageToolServer.xcodeproj/xcuserdata/ramon.xcuserdatad/xcschemes/LanguageToolServer.xcscheme" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LanguageToolServer/main.m" afterPath="$PROJECT_DIR$/LanguageToolServer/main.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LanguageToolServer.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/LanguageToolServer.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LanguageToolServer.xcodeproj/xcuserdata/ramon.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/LanguageToolServer.xcodeproj/xcuserdata/ramon.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LanguageToolServer/LTSpellChecker.m" afterPath="$PROJECT_DIR$/LanguageToolServer/LTSpellChecker.m" />
     </list>
     <ignored path="LanguageToolServer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Podfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Podfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Podfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="240">
+            <state line="2" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.10041841" vertical-offset="0" max-vertical-offset="478">
               <folding />
             </state>
           </provider>
@@ -88,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LTSpellChecker.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="LTSpellChecker.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LanguageToolServer/LTSpellChecker.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="0" selection-start="4419" selection-end="4419" vertical-scroll-proportion="1.0728155" vertical-offset="1790" max-vertical-offset="2880">
+            <state line="24" column="1" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0" vertical-offset="384" max-vertical-offset="1488">
               <folding />
             </state>
           </provider>
@@ -266,18 +248,18 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891247" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Unicode Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39920425" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39920425" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982357" sideWeight="0.25729442" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982357" sideWeight="0.2877984" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982357" sideWeight="0.34217507" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982357" sideWeight="0.38328913" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Pomodoro" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -332,13 +314,6 @@
         <state line="3" column="26" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0989011" vertical-offset="0" max-vertical-offset="728" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Podfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LanguageToolServer/LTSpellChecker.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="19" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
@@ -353,9 +328,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LanguageToolServer/LTLanguageToolConnection.m">
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSSpellServer.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="4" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.0" vertical-offset="624" max-vertical-offset="1464">
+        <state line="90" column="0" selection-start="6840" selection-end="6840" vertical-scroll-proportion="0.6587983" vertical-offset="1805" max-vertical-offset="2352">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LanguageToolServer/LTSpellChecker.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="1" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0" vertical-offset="384" max-vertical-offset="1488">
           <folding />
         </state>
       </provider>
@@ -367,16 +349,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSSpellServer.h">
+    <entry file="file://$PROJECT_DIR$/LanguageToolServer/LTLanguageToolConnection.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="0" selection-start="6840" selection-end="6840" vertical-scroll-proportion="0.6587983" vertical-offset="1805" max-vertical-offset="2352">
+        <state line="30" column="4" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.0" vertical-offset="624" max-vertical-offset="1464">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LanguageToolServer/LTSpellChecker.m">
+    <entry file="file://$PROJECT_DIR$/Podfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="0" selection-start="4419" selection-end="4419" vertical-scroll-proportion="1.0728155" vertical-offset="1790" max-vertical-offset="2880">
+        <state line="2" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.10041841" vertical-offset="0" max-vertical-offset="478">
           <folding />
         </state>
       </provider>
