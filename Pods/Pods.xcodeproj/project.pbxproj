@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		078D88F5D90D44E2BB35B327 /* JXHTTPFormEncodedBody.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C6A4A9D90C4A88AEC07B30 /* JXHTTPFormEncodedBody.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		08499FD70A804E1DBD85FD84 /* JXHTTPFileBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 255FF5D88EF54537A9243F87 /* JXHTTPFileBody.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		0FE6A4CDB4664F37A9C2B6C9 /* JXHTTPOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9980FD9770234BCF9E7D8F5F /* JXHTTPOperation.h */; };
+		17298DA24B9F49B0BCA09029 /* JXURLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E78696E414A42C9941B7314 /* JXURLEncoding.h */; };
+		1F5C3BC304BD458E82F21CE1 /* JXHTTPOperationQueueDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = AD90E8E8BE6043DD816D0A4E /* JXHTTPOperationQueueDelegate.h */; };
+		280A46E19CF445D5BE72BB83 /* JXOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B759467A0D98422A8822E23D /* JXOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		2A3B9DF8A61944C0AF7ACA7D /* JXURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF1EC4E425F4DBE8C955E28 /* JXURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		3B52EDE79A9D4560A001F12B /* JXHTTPRequestBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E2D8E3718624E93B4ACC4AC /* JXHTTPRequestBody.h */; };
+		3C3ED23BABCD4F618CBEFAB0 /* JXHTTPJSONBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 18FE2FEA80534A87967C8735 /* JXHTTPJSONBody.h */; };
+		44FD74D6859E4A5281572E83 /* Pods-JXHTTP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93475AF3A31143DAA30AAEB4 /* Pods-JXHTTP-dummy.m */; };
+		4A2273EBB09D4ADAB947B7EA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC273931AD04E08A04A5F8A /* Cocoa.framework */; };
+		52172D9EEE60452ABDC70215 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D470EB9727641ED8442A5CB /* Pods-dummy.m */; };
+		58B07EB62F69435C956AE2AA /* JXURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E4BA4E9994A64037861569AA /* JXURLConnectionOperation.h */; };
+		5EE46FA44073490E8659EF27 /* JXHTTPOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C64B24FF192404998160414 /* JXHTTPOperationQueue.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		615047DD5D714911B63FF914 /* JXHTTPOperation+Convenience.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D1410EBD9147FDBC0BFB62 /* JXHTTPOperation+Convenience.h */; };
+		77E7ABCF5ACA44CF9D70926E /* JXURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 419CD287D43D423B9D69547C /* JXURLEncoding.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		797C39B6AE2340FFB7B9B613 /* JXHTTPOperation+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = C10F874664BE43A38A026E98 /* JXHTTPOperation+Convenience.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		7E5ABF60D0F046D486DC5614 /* JXHTTPOperationQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = CA4E5DECD87941F7A3C98DF1 /* JXHTTPOperationQueue.h */; };
+		8E7E6C38B2D04F26A0B20808 /* JXHTTPDataBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C1E6C4C17F84D53BAC9A20B /* JXHTTPDataBody.h */; };
+		905D681C7A7A47C9A7E05DDD /* JXHTTPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D07296CABDB64696B1FAD596 /* JXHTTPOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		9A800B91C5044B4EBC2E7F0B /* JXHTTP.h in Headers */ = {isa = PBXBuildFile; fileRef = 5124C4E66E3B488B865AD5F9 /* JXHTTP.h */; };
+		A41EF05DCE504433A72C57B0 /* JXHTTPFormEncodedBody.h in Headers */ = {isa = PBXBuildFile; fileRef = BC06386716124F24B722ADCE /* JXHTTPFormEncodedBody.h */; };
+		AAD2D3624A4E40F38C6CD986 /* JXOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 35871547D011437A9D787757 /* JXOperation.h */; };
+		B73C024C398947ABB784B70E /* JXHTTPJSONBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 563759659E7447B482C3C524 /* JXHTTPJSONBody.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		C1E4903CC05B4DC9ABCEAC51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8861A83A130F4EF49D29B93D /* Foundation.framework */; };
+		D58876B3A2F545DBA1E29C52 /* JXHTTPMultipartBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 54105277D0B34B589E73C952 /* JXHTTPMultipartBody.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		D75F4974773248EA81511775 /* JXHTTPMultipartBody.h in Headers */ = {isa = PBXBuildFile; fileRef = DE9054CD10AC4D409FE22714 /* JXHTTPMultipartBody.h */; };
+		DAC1B28733DF4421B9EA390E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC273931AD04E08A04A5F8A /* Cocoa.framework */; };
+		DDB9CDC859004BDCA5D33EA4 /* JXHTTPDataBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 033A99348F774075810DC68E /* JXHTTPDataBody.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		EC9CF41E5DF34081B2F8BAEB /* libPods-JXHTTP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C588E2667E1427799BD76E6 /* libPods-JXHTTP.a */; };
+		F1F491EB1E4440B88741D643 /* JXHTTPFileBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 943E74F43A6244EE8CFB4FFB /* JXHTTPFileBody.h */; };
+		FFF7A73949224C659D94035A /* JXHTTPOperationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A169E74021AE4F4DBD4F86D6 /* JXHTTPOperationDelegate.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC9198E922254111BC15970F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD8316E992C94664AB243288 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C17D1C1E58841CA98311518;
+			remoteInfo = "Pods-JXHTTP";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033A99348F774075810DC68E /* JXHTTPDataBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPDataBody.m; path = JXHTTP/JXHTTPDataBody.m; sourceTree = "<group>"; };
+		18FE2FEA80534A87967C8735 /* JXHTTPJSONBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPJSONBody.h; path = JXHTTP/JXHTTPJSONBody.h; sourceTree = "<group>"; };
+		1D470EB9727641ED8442A5CB /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		2417B28BF7864A7A8013BC4E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		255FF5D88EF54537A9243F87 /* JXHTTPFileBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPFileBody.m; path = JXHTTP/JXHTTPFileBody.m; sourceTree = "<group>"; };
+		35871547D011437A9D787757 /* JXOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXOperation.h; path = JXHTTP/JXOperation.h; sourceTree = "<group>"; };
+		3F55BB6027544A709F3E1144 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		419CD287D43D423B9D69547C /* JXURLEncoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXURLEncoding.m; path = JXHTTP/JXURLEncoding.m; sourceTree = "<group>"; };
+		4E2D8E3718624E93B4ACC4AC /* JXHTTPRequestBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPRequestBody.h; path = JXHTTP/JXHTTPRequestBody.h; sourceTree = "<group>"; };
+		4E78696E414A42C9941B7314 /* JXURLEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXURLEncoding.h; path = JXHTTP/JXURLEncoding.h; sourceTree = "<group>"; };
+		5124C4E66E3B488B865AD5F9 /* JXHTTP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTP.h; path = JXHTTP/JXHTTP.h; sourceTree = "<group>"; };
+		54105277D0B34B589E73C952 /* JXHTTPMultipartBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPMultipartBody.m; path = JXHTTP/JXHTTPMultipartBody.m; sourceTree = "<group>"; };
+		563759659E7447B482C3C524 /* JXHTTPJSONBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPJSONBody.m; path = JXHTTP/JXHTTPJSONBody.m; sourceTree = "<group>"; };
+		5C64B24FF192404998160414 /* JXHTTPOperationQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPOperationQueue.m; path = JXHTTP/JXHTTPOperationQueue.m; sourceTree = "<group>"; };
+		7C1E6C4C17F84D53BAC9A20B /* JXHTTPDataBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPDataBody.h; path = JXHTTP/JXHTTPDataBody.h; sourceTree = "<group>"; };
+		8861A83A130F4EF49D29B93D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		88D1410EBD9147FDBC0BFB62 /* JXHTTPOperation+Convenience.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JXHTTPOperation+Convenience.h"; path = "JXHTTP/JXHTTPOperation+Convenience.h"; sourceTree = "<group>"; };
+		93475AF3A31143DAA30AAEB4 /* Pods-JXHTTP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JXHTTP-dummy.m"; sourceTree = "<group>"; };
+		943E74F43A6244EE8CFB4FFB /* JXHTTPFileBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPFileBody.h; path = JXHTTP/JXHTTPFileBody.h; sourceTree = "<group>"; };
+		980944E29AC944D69B74BE68 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9980FD9770234BCF9E7D8F5F /* JXHTTPOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPOperation.h; path = JXHTTP/JXHTTPOperation.h; sourceTree = "<group>"; };
+		9C588E2667E1427799BD76E6 /* libPods-JXHTTP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JXHTTP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A061F86FB0BC4D5483296733 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A169E74021AE4F4DBD4F86D6 /* JXHTTPOperationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPOperationDelegate.h; path = JXHTTP/JXHTTPOperationDelegate.h; sourceTree = "<group>"; };
+		A79B58BD5B8540F9A64E466E /* Pods-JXHTTP-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXHTTP-Private.xcconfig"; sourceTree = "<group>"; };
+		ABC273931AD04E08A04A5F8A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		AD90E8E8BE6043DD816D0A4E /* JXHTTPOperationQueueDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPOperationQueueDelegate.h; path = JXHTTP/JXHTTPOperationQueueDelegate.h; sourceTree = "<group>"; };
+		B759467A0D98422A8822E23D /* JXOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXOperation.m; path = JXHTTP/JXOperation.m; sourceTree = "<group>"; };
+		BC06386716124F24B722ADCE /* JXHTTPFormEncodedBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPFormEncodedBody.h; path = JXHTTP/JXHTTPFormEncodedBody.h; sourceTree = "<group>"; };
+		C10F874664BE43A38A026E98 /* JXHTTPOperation+Convenience.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JXHTTPOperation+Convenience.m"; path = "JXHTTP/JXHTTPOperation+Convenience.m"; sourceTree = "<group>"; };
+		CA4E5DECD87941F7A3C98DF1 /* JXHTTPOperationQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPOperationQueue.h; path = JXHTTP/JXHTTPOperationQueue.h; sourceTree = "<group>"; };
+		CC26668141A74B81BEF1916A /* Pods-JXHTTP.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXHTTP.xcconfig"; sourceTree = "<group>"; };
+		D07296CABDB64696B1FAD596 /* JXHTTPOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPOperation.m; path = JXHTTP/JXHTTPOperation.m; sourceTree = "<group>"; };
+		D2C45054BE674F1CBC1346FA /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = "<group>"; };
+		D4C6A4A9D90C4A88AEC07B30 /* JXHTTPFormEncodedBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPFormEncodedBody.m; path = JXHTTP/JXHTTPFormEncodedBody.m; sourceTree = "<group>"; };
+		DE9054CD10AC4D409FE22714 /* JXHTTPMultipartBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPMultipartBody.h; path = JXHTTP/JXHTTPMultipartBody.h; sourceTree = "<group>"; };
+		E4BA4E9994A64037861569AA /* JXURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXURLConnectionOperation.h; path = JXHTTP/JXURLConnectionOperation.h; sourceTree = "<group>"; };
+		E91E82B9002C42FB956701FE /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		EF332485703C432F851A54D0 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		FAF1EC4E425F4DBE8C955E28 /* JXURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXURLConnectionOperation.m; path = JXHTTP/JXURLConnectionOperation.m; sourceTree = "<group>"; };
+		FEC603CD92664101AC54592D /* Pods-JXHTTP-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JXHTTP-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DEE5D5C43B347EF918BA282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC1B28733DF4421B9EA390E /* Cocoa.framework in Frameworks */,
+				EC9CF41E5DF34081B2F8BAEB /* libPods-JXHTTP.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD2E9A82E3048E3BA76B28C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2273EBB09D4ADAB947B7EA /* Cocoa.framework in Frameworks */,
+				C1E4903CC05B4DC9ABCEAC51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02B5E8228E8C494CAC357D0E /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				ABC273931AD04E08A04A5F8A /* Cocoa.framework */,
+				8861A83A130F4EF49D29B93D /* Foundation.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		2187BB98D5F04E519EEFA1F1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC26668141A74B81BEF1916A /* Pods-JXHTTP.xcconfig */,
+				A79B58BD5B8540F9A64E466E /* Pods-JXHTTP-Private.xcconfig */,
+				93475AF3A31143DAA30AAEB4 /* Pods-JXHTTP-dummy.m */,
+				FEC603CD92664101AC54592D /* Pods-JXHTTP-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		57C46B8F3E1747DDB386D90D /* JXHTTP */ = {
+			isa = PBXGroup;
+			children = (
+				5124C4E66E3B488B865AD5F9 /* JXHTTP.h */,
+				7C1E6C4C17F84D53BAC9A20B /* JXHTTPDataBody.h */,
+				033A99348F774075810DC68E /* JXHTTPDataBody.m */,
+				943E74F43A6244EE8CFB4FFB /* JXHTTPFileBody.h */,
+				255FF5D88EF54537A9243F87 /* JXHTTPFileBody.m */,
+				BC06386716124F24B722ADCE /* JXHTTPFormEncodedBody.h */,
+				D4C6A4A9D90C4A88AEC07B30 /* JXHTTPFormEncodedBody.m */,
+				18FE2FEA80534A87967C8735 /* JXHTTPJSONBody.h */,
+				563759659E7447B482C3C524 /* JXHTTPJSONBody.m */,
+				DE9054CD10AC4D409FE22714 /* JXHTTPMultipartBody.h */,
+				54105277D0B34B589E73C952 /* JXHTTPMultipartBody.m */,
+				9980FD9770234BCF9E7D8F5F /* JXHTTPOperation.h */,
+				D07296CABDB64696B1FAD596 /* JXHTTPOperation.m */,
+				88D1410EBD9147FDBC0BFB62 /* JXHTTPOperation+Convenience.h */,
+				C10F874664BE43A38A026E98 /* JXHTTPOperation+Convenience.m */,
+				A169E74021AE4F4DBD4F86D6 /* JXHTTPOperationDelegate.h */,
+				CA4E5DECD87941F7A3C98DF1 /* JXHTTPOperationQueue.h */,
+				5C64B24FF192404998160414 /* JXHTTPOperationQueue.m */,
+				AD90E8E8BE6043DD816D0A4E /* JXHTTPOperationQueueDelegate.h */,
+				4E2D8E3718624E93B4ACC4AC /* JXHTTPRequestBody.h */,
+				35871547D011437A9D787757 /* JXOperation.h */,
+				B759467A0D98422A8822E23D /* JXOperation.m */,
+				E4BA4E9994A64037861569AA /* JXURLConnectionOperation.h */,
+				FAF1EC4E425F4DBE8C955E28 /* JXURLConnectionOperation.m */,
+				4E78696E414A42C9941B7314 /* JXURLEncoding.h */,
+				419CD287D43D423B9D69547C /* JXURLEncoding.m */,
+				2187BB98D5F04E519EEFA1F1 /* Support Files */,
+			);
+			name = JXHTTP;
+			path = JXHTTP;
+			sourceTree = "<group>";
+		};
+		6A7CEAB486A742A69368E2AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2C45054BE674F1CBC1346FA /* Pods.xcconfig */,
+				A061F86FB0BC4D5483296733 /* Pods-acknowledgements.markdown */,
+				2417B28BF7864A7A8013BC4E /* Pods-acknowledgements.plist */,
+				1D470EB9727641ED8442A5CB /* Pods-dummy.m */,
+				E91E82B9002C42FB956701FE /* Pods-environment.h */,
+				EF332485703C432F851A54D0 /* Pods-resources.sh */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A1F580A02DFE41AB97B291D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02B5E8228E8C494CAC357D0E /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9CCCFC45E5A496AB4900714 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F55BB6027544A709F3E1144 /* libPods.a */,
+				9C588E2667E1427799BD76E6 /* libPods-JXHTTP.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C853D86FE1C145E89B8B7B2D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A7CEAB486A742A69368E2AC /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CA8EB1B5DF2D46AEB91DAD06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57C46B8F3E1747DDB386D90D /* JXHTTP */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC1FAE1FB8354CADA0F10484 = {
+			isa = PBXGroup;
+			children = (
+				980944E29AC944D69B74BE68 /* Podfile */,
+				A1F580A02DFE41AB97B291D4 /* Frameworks */,
+				CA8EB1B5DF2D46AEB91DAD06 /* Pods */,
+				B9CCCFC45E5A496AB4900714 /* Products */,
+				C853D86FE1C145E89B8B7B2D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		205B416B02504809A36EE50E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A800B91C5044B4EBC2E7F0B /* JXHTTP.h in Headers */,
+				8E7E6C38B2D04F26A0B20808 /* JXHTTPDataBody.h in Headers */,
+				F1F491EB1E4440B88741D643 /* JXHTTPFileBody.h in Headers */,
+				A41EF05DCE504433A72C57B0 /* JXHTTPFormEncodedBody.h in Headers */,
+				3C3ED23BABCD4F618CBEFAB0 /* JXHTTPJSONBody.h in Headers */,
+				D75F4974773248EA81511775 /* JXHTTPMultipartBody.h in Headers */,
+				615047DD5D714911B63FF914 /* JXHTTPOperation+Convenience.h in Headers */,
+				0FE6A4CDB4664F37A9C2B6C9 /* JXHTTPOperation.h in Headers */,
+				FFF7A73949224C659D94035A /* JXHTTPOperationDelegate.h in Headers */,
+				7E5ABF60D0F046D486DC5614 /* JXHTTPOperationQueue.h in Headers */,
+				1F5C3BC304BD458E82F21CE1 /* JXHTTPOperationQueueDelegate.h in Headers */,
+				3B52EDE79A9D4560A001F12B /* JXHTTPRequestBody.h in Headers */,
+				AAD2D3624A4E40F38C6CD986 /* JXOperation.h in Headers */,
+				58B07EB62F69435C956AE2AA /* JXURLConnectionOperation.h in Headers */,
+				17298DA24B9F49B0BCA09029 /* JXURLEncoding.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C17D1C1E58841CA98311518 /* Pods-JXHTTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7AC17A731864ACE8B0C44E1 /* Build configuration list for PBXNativeTarget "Pods-JXHTTP" */;
+			buildPhases = (
+				C2838FE6091947FF8797F530 /* Sources */,
+				8AD2E9A82E3048E3BA76B28C /* Frameworks */,
+				205B416B02504809A36EE50E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JXHTTP";
+			productName = "Pods-JXHTTP";
+			productReference = 9C588E2667E1427799BD76E6 /* libPods-JXHTTP.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CE4F05FD111641128AA72B7E /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 357A6AFF0549487481CE1BFA /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				5E0D255E601742EC8F29B0A4 /* Sources */,
+				7DEE5D5C43B347EF918BA282 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52DD94C29DAB4A868B472A28 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 3F55BB6027544A709F3E1144 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD8316E992C94664AB243288 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 98AFF4EB867B4DCFBC5204CD /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC1FAE1FB8354CADA0F10484;
+			productRefGroup = B9CCCFC45E5A496AB4900714 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+			);
+			projectRoot = "";
+			targets = (
+				CE4F05FD111641128AA72B7E /* Pods */,
+				1C17D1C1E58841CA98311518 /* Pods-JXHTTP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E0D255E601742EC8F29B0A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52172D9EEE60452ABDC70215 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2838FE6091947FF8797F530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB9CDC859004BDCA5D33EA4 /* JXHTTPDataBody.m in Sources */,
+				08499FD70A804E1DBD85FD84 /* JXHTTPFileBody.m in Sources */,
+				078D88F5D90D44E2BB35B327 /* JXHTTPFormEncodedBody.m in Sources */,
+				B73C024C398947ABB784B70E /* JXHTTPJSONBody.m in Sources */,
+				D58876B3A2F545DBA1E29C52 /* JXHTTPMultipartBody.m in Sources */,
+				797C39B6AE2340FFB7B9B613 /* JXHTTPOperation+Convenience.m in Sources */,
+				905D681C7A7A47C9A7E05DDD /* JXHTTPOperation.m in Sources */,
+				5EE46FA44073490E8659EF27 /* JXHTTPOperationQueue.m in Sources */,
+				280A46E19CF445D5BE72BB83 /* JXOperation.m in Sources */,
+				2A3B9DF8A61944C0AF7ACA7D /* JXURLConnectionOperation.m in Sources */,
+				77E7ABCF5ACA44CF9D70926E /* JXURLEncoding.m in Sources */,
+				44FD74D6859E4A5281572E83 /* Pods-JXHTTP-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52DD94C29DAB4A868B472A28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C17D1C1E58841CA98311518 /* Pods-JXHTTP */;
+			targetProxy = CC9198E922254111BC15970F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2E9443782D2D41058192F3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56948785602B4A23A308506E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A79B58BD5B8540F9A64E466E /* Pods-JXHTTP-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-JXHTTP-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5CA4A534DF084E37B47F75B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		A0A244A885A047FFBDDC569C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A79B58BD5B8540F9A64E466E /* Pods-JXHTTP-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-JXHTTP-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AB84D7E2736B42179AFE3524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2C45054BE674F1CBC1346FA /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C06C759B4EA34264ABA94E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2C45054BE674F1CBC1346FA /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		357A6AFF0549487481CE1BFA /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB84D7E2736B42179AFE3524 /* Debug */,
+				C06C759B4EA34264ABA94E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98AFF4EB867B4DCFBC5204CD /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA4A534DF084E37B47F75B6 /* Debug */,
+				2E9443782D2D41058192F3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7AC17A731864ACE8B0C44E1 /* Build configuration list for PBXNativeTarget "Pods-JXHTTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56948785602B4A23A308506E /* Debug */,
+				A0A244A885A047FFBDDC569C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD8316E992C94664AB243288 /* Project object */;
+}

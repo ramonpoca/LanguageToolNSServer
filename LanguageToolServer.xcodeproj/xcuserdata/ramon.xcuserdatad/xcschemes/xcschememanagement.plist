@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>LanguageToolApp.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>LanguageToolAppTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>LanguageToolServer.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +22,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>F6176B361881B3BA00A09F3B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F6176B551881B3BA00A09F3B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>F6DFC4B71881682800F30522</key>
 		<dict>
 			<key>primary</key>

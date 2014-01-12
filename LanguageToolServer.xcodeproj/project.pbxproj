@@ -7,57 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F6DFC4BC1881682800F30522 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DFC4BB1881682800F30522 /* Foundation.framework */; };
-		F6DFC4BF1881682800F30522 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DFC4BE1881682800F30522 /* main.m */; };
-		F6DFC4C31881682800F30522 /* LanguageToolServer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F6DFC4C21881682800F30522 /* LanguageToolServer.1 */; };
+		791E086CF8CB404685173ABB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40B9F2512E464403B906071D /* libPods.a */; };
+		F6176B391881B3BA00A09F3B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6176B381881B3BA00A09F3B /* Cocoa.framework */; };
+		F6176B431881B3BA00A09F3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6176B411881B3BA00A09F3B /* InfoPlist.strings */; };
+		F6176B451881B3BA00A09F3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6176B441881B3BA00A09F3B /* main.m */; };
+		F6176B491881B3BA00A09F3B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F6176B471881B3BA00A09F3B /* Credits.rtf */; };
+		F6176B6A1881B4D500A09F3B /* LTSpellChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6743618CB82AF814C14495E2 /* LTSpellChecker.m */; };
+		F6176B6B1881B4D500A09F3B /* LTLanguageToolConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 674360414612E6AA7E1FD2E1 /* LTLanguageToolConnection.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		F6DFC4B61881682800F30522 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-				F6DFC4C31881682800F30522 /* LanguageToolServer.1 in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		F6DFC4B81881682800F30522 /* LanguageToolServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LanguageToolServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		40B9F2512E464403B906071D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		674360414612E6AA7E1FD2E1 /* LTLanguageToolConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LTLanguageToolConnection.m; path = ../LanguageToolServer/LTLanguageToolConnection.m; sourceTree = "<group>"; };
+		6743618CB82AF814C14495E2 /* LTSpellChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LTSpellChecker.m; path = ../LanguageToolServer/LTSpellChecker.m; sourceTree = "<group>"; };
+		674362E55C21532D4A594954 /* LTSpellChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTSpellChecker.h; path = ../LanguageToolServer/LTSpellChecker.h; sourceTree = "<group>"; };
+		674365679F9C99F004218F6B /* LTLanguageToolConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTLanguageToolConnection.h; path = ../LanguageToolServer/LTLanguageToolConnection.h; sourceTree = "<group>"; };
+		DFE0549E98904CE0B9147833 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		F6176B371881B3BA00A09F3B /* LanguageTool.service */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanguageTool.service; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6176B381881B3BA00A09F3B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F6176B3B1881B3BA00A09F3B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F6176B3C1881B3BA00A09F3B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F6176B3D1881B3BA00A09F3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F6176B401881B3BA00A09F3B /* LanguageToolApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LanguageToolApp-Info.plist"; sourceTree = "<group>"; };
+		F6176B421881B3BA00A09F3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6176B441881B3BA00A09F3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6176B461881B3BA00A09F3B /* LanguageToolApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LanguageToolApp-Prefix.pch"; sourceTree = "<group>"; };
+		F6176B481881B3BA00A09F3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F6176B571881B3BA00A09F3B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F6DFC4BB1881682800F30522 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F6DFC4BE1881682800F30522 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F6DFC4C11881682800F30522 /* LanguageToolServer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LanguageToolServer-Prefix.pch"; sourceTree = "<group>"; };
-		F6DFC4C21881682800F30522 /* LanguageToolServer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LanguageToolServer.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F6DFC4B51881682800F30522 /* Frameworks */ = {
+		F6176B341881B3BA00A09F3B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6DFC4BC1881682800F30522 /* Foundation.framework in Frameworks */,
+				F6176B391881B3BA00A09F3B /* Cocoa.framework in Frameworks */,
+				791E086CF8CB404685173ABB /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F6176B3A1881B3BA00A09F3B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6176B3B1881B3BA00A09F3B /* AppKit.framework */,
+				F6176B3C1881B3BA00A09F3B /* CoreData.framework */,
+				F6176B3D1881B3BA00A09F3B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F6176B3E1881B3BA00A09F3B /* LanguageToolApp */ = {
+			isa = PBXGroup;
+			children = (
+				6743618CB82AF814C14495E2 /* LTSpellChecker.m */,
+				674362E55C21532D4A594954 /* LTSpellChecker.h */,
+				674360414612E6AA7E1FD2E1 /* LTLanguageToolConnection.m */,
+				674365679F9C99F004218F6B /* LTLanguageToolConnection.h */,
+				F6176B3F1881B3BA00A09F3B /* Supporting Files */,
+			);
+			path = LanguageToolApp;
+			sourceTree = "<group>";
+		};
+		F6176B3F1881B3BA00A09F3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6176B401881B3BA00A09F3B /* LanguageToolApp-Info.plist */,
+				F6176B411881B3BA00A09F3B /* InfoPlist.strings */,
+				F6176B441881B3BA00A09F3B /* main.m */,
+				F6176B461881B3BA00A09F3B /* LanguageToolApp-Prefix.pch */,
+				F6176B471881B3BA00A09F3B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		F6DFC4AF1881682800F30522 = {
 			isa = PBXGroup;
 			children = (
-				F6DFC4BD1881682800F30522 /* LanguageToolServer */,
+				F6176B3E1881B3BA00A09F3B /* LanguageToolApp */,
 				F6DFC4BA1881682800F30522 /* Frameworks */,
 				F6DFC4B91881682800F30522 /* Products */,
+				DFE0549E98904CE0B9147833 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
 		F6DFC4B91881682800F30522 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F6DFC4B81881682800F30522 /* LanguageToolServer */,
+				F6176B371881B3BA00A09F3B /* LanguageTool.service */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,47 +106,35 @@
 			isa = PBXGroup;
 			children = (
 				F6DFC4BB1881682800F30522 /* Foundation.framework */,
+				40B9F2512E464403B906071D /* libPods.a */,
+				F6176B381881B3BA00A09F3B /* Cocoa.framework */,
+				F6176B571881B3BA00A09F3B /* XCTest.framework */,
+				F6176B3A1881B3BA00A09F3B /* Other Frameworks */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F6DFC4BD1881682800F30522 /* LanguageToolServer */ = {
-			isa = PBXGroup;
-			children = (
-				F6DFC4BE1881682800F30522 /* main.m */,
-				F6DFC4C21881682800F30522 /* LanguageToolServer.1 */,
-				F6DFC4C01881682800F30522 /* Supporting Files */,
-			);
-			path = LanguageToolServer;
-			sourceTree = "<group>";
-		};
-		F6DFC4C01881682800F30522 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F6DFC4C11881682800F30522 /* LanguageToolServer-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F6DFC4B71881682800F30522 /* LanguageToolServer */ = {
+		F6176B361881B3BA00A09F3B /* LanguageTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F6DFC4C61881682800F30522 /* Build configuration list for PBXNativeTarget "LanguageToolServer" */;
+			buildConfigurationList = F6176B681881B3BA00A09F3B /* Build configuration list for PBXNativeTarget "LanguageTool" */;
 			buildPhases = (
-				F6DFC4B41881682800F30522 /* Sources */,
-				F6DFC4B51881682800F30522 /* Frameworks */,
-				F6DFC4B61881682800F30522 /* CopyFiles */,
+				A8869F3A494D44749C26234C /* Check Pods Manifest.lock */,
+				F6176B331881B3BA00A09F3B /* Sources */,
+				F6176B341881B3BA00A09F3B /* Frameworks */,
+				F6176B351881B3BA00A09F3B /* Resources */,
+				198888E4218142EA9D036E5D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LanguageToolServer;
-			productName = LanguageToolServer;
-			productReference = F6DFC4B81881682800F30522 /* LanguageToolServer */;
-			productType = "com.apple.product-type.tool";
+			name = LanguageTool;
+			productName = LanguageToolApp;
+			productReference = F6176B371881B3BA00A09F3B /* LanguageTool.service */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -116,6 +144,15 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Ramon Poca";
+				TargetAttributes = {
+					F6176B361881B3BA00A09F3B = {
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
 			};
 			buildConfigurationList = F6DFC4B31881682800F30522 /* Build configuration list for PBXProject "LanguageToolServer" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -123,29 +160,132 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = F6DFC4AF1881682800F30522;
 			productRefGroup = F6DFC4B91881682800F30522 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F6DFC4B71881682800F30522 /* LanguageToolServer */,
+				F6176B361881B3BA00A09F3B /* LanguageTool */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		F6176B351881B3BA00A09F3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6176B431881B3BA00A09F3B /* InfoPlist.strings in Resources */,
+				F6176B491881B3BA00A09F3B /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		198888E4218142EA9D036E5D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8869F3A494D44749C26234C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		F6DFC4B41881682800F30522 /* Sources */ = {
+		F6176B331881B3BA00A09F3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6DFC4BF1881682800F30522 /* main.m in Sources */,
+				F6176B6A1881B4D500A09F3B /* LTSpellChecker.m in Sources */,
+				F6176B6B1881B4D500A09F3B /* LTLanguageToolConnection.m in Sources */,
+				F6176B451881B3BA00A09F3B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		F6176B411881B3BA00A09F3B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6176B421881B3BA00A09F3B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F6176B471881B3BA00A09F3B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6176B481881B3BA00A09F3B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		F6176B641881B3BA00A09F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFE0549E98904CE0B9147833 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LanguageToolApp/LanguageToolApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LanguageToolApp/LanguageToolApp-Info.plist";
+				INSTALL_PATH = /Library/Services;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = service;
+			};
+			name = Debug;
+		};
+		F6176B651881B3BA00A09F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFE0549E98904CE0B9147833 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LanguageToolApp/LanguageToolApp-Prefix.pch";
+				INFOPLIST_FILE = "LanguageToolApp/LanguageToolApp-Info.plist";
+				INSTALL_PATH = /Library/Services;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = service;
+			};
+			name = Release;
+		};
 		F6DFC4C41881682800F30522 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -214,27 +354,18 @@
 			};
 			name = Release;
 		};
-		F6DFC4C71881682800F30522 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LanguageToolServer/LanguageToolServer-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		F6DFC4C81881682800F30522 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LanguageToolServer/LanguageToolServer-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F6176B681881B3BA00A09F3B /* Build configuration list for PBXNativeTarget "LanguageTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6176B641881B3BA00A09F3B /* Debug */,
+				F6176B651881B3BA00A09F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F6DFC4B31881682800F30522 /* Build configuration list for PBXProject "LanguageToolServer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -243,14 +374,6 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
-		};
-		F6DFC4C61881682800F30522 /* Build configuration list for PBXNativeTarget "LanguageToolServer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F6DFC4C71881682800F30522 /* Debug */,
-				F6DFC4C81881682800F30522 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
