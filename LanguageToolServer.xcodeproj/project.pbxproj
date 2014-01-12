@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		674368F3F69174A7EF4CFBB1 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6743673DB3EC51613C35FC51 /* .gitignore */; };
 		791E086CF8CB404685173ABB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40B9F2512E464403B906071D /* libPods.a */; };
 		F6176B391881B3BA00A09F3B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6176B381881B3BA00A09F3B /* Cocoa.framework */; };
 		F6176B431881B3BA00A09F3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6176B411881B3BA00A09F3B /* InfoPlist.strings */; };
@@ -22,6 +23,7 @@
 		6743618CB82AF814C14495E2 /* LTSpellChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LTSpellChecker.m; path = ../LanguageToolServer/LTSpellChecker.m; sourceTree = "<group>"; };
 		674362E55C21532D4A594954 /* LTSpellChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTSpellChecker.h; path = ../LanguageToolServer/LTSpellChecker.h; sourceTree = "<group>"; };
 		674365679F9C99F004218F6B /* LTLanguageToolConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTLanguageToolConnection.h; path = ../LanguageToolServer/LTLanguageToolConnection.h; sourceTree = "<group>"; };
+		6743673DB3EC51613C35FC51 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		DFE0549E98904CE0B9147833 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		F6176B371881B3BA00A09F3B /* LanguageTool.service */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanguageTool.service; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6176B381881B3BA00A09F3B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -91,6 +93,7 @@
 				F6DFC4BA1881682800F30522 /* Frameworks */,
 				F6DFC4B91881682800F30522 /* Products */,
 				DFE0549E98904CE0B9147833 /* Pods.xcconfig */,
+				6743673DB3EC51613C35FC51 /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -179,6 +182,7 @@
 			files = (
 				F6176B431881B3BA00A09F3B /* InfoPlist.strings in Resources */,
 				F6176B491881B3BA00A09F3B /* Credits.rtf in Resources */,
+				674368F3F69174A7EF4CFBB1 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
